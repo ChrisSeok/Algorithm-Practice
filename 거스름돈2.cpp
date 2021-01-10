@@ -6,7 +6,7 @@ void GiveChange(int C){
    for(int i=500;i>=100;i=i/5){
     	int a=num/i; //a=3
 		left=num%i;  //left=50
-    	cout<<i<<"¿ø:" <<a<<"°³" ;
+    	cout<<i<<"Â¿Ã¸:" <<a<<"Â°Â³" ;
     	if(left==0) break;
     	num=left;
 	}// num=50, 
@@ -14,7 +14,7 @@ void GiveChange(int C){
 		for(int i=50;i>=10;i=i/5){
 		int b=num/i;
 		left=num%i;
-    	cout<<i<<"¿ø:" <<b<<"°³" ;
+    	cout<<i<<"Â¿Ã¸:" <<b<<"Â°Â³" ;
     	if(left==0) break;
     	num=left;
 		}
@@ -25,7 +25,7 @@ void GiveChange(int C){
 int main(){
 	int change;
 	cin>>change;
-	cout<<"-------------"<<endl<<">>°Å½º¸§µ·:"<<endl; 
+	cout<<"-------------"<<endl<<">>Â°Ã…Â½ÂºÂ¸Â§ÂµÂ·:"<<endl; 
 	GiveChange(change);
 	
 	 
