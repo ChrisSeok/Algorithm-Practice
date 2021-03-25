@@ -1,0 +1,107 @@
+.banner{
+    background-image: url(moon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.intro{
+    font-family:fantasy;
+    font-size: 50px;
+    text-align: center;
+    position:absolute;
+    text-shadow: #946f73;
+    top: 60%; /* to place in the center of parent div */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main_header{
+    width:99.4%;
+    position:absolute;
+    bottom:0;
+    border: 2px solid #a36b72;
+    /*border-radius: 25px;*/
+    background-color: #a36b72;
+    padding: 2px;
+}
+.main_content{
+    border: 2px solid rgb(233, 202, 182);
+    padding: 5px;
+    background-color: rgb(233, 202, 182);
+}
+.main_footer{
+    border: 5px solid rgb(129, 78, 43);
+    /* padding-bottom: 40px; */
+    height:100px;
+    padding:40px;
+    padding-left: 70px;
+    background-color: rgb(129, 78, 43);
+    font-family: 'Times New Roman';
+    font-variant:small-caps;
+    color:rgb(233, 202, 182);
+    position:relative;
+   
+}
+.copyright{
+    position: absolute;
+    margin-bottom: 0;
+
+}
+.navigation_item{
+    display: inline;
+    padding-right:1.4cm;
+    font-size: 17px;
+    font-family:'Times New Roman';
+    font-variant:small-caps;
+    font-weight: bold;
+    
+    
+}
+
+.navigation_item a{
+    text-decoration: none;
+    color: black;
+}
+.navigation_item a:hover{
+    color:rgb(252, 232, 215);
+    border-bottom: 3px dotted rgb(252, 232, 215);;
+}
+.navigation_item a:active{
+    color:indianred;
+   
+}
+.right{
+    float:right;
+    text-align:end;
+    margin-right:20px;
+    border-bottom:1cm;
+    padding-right: 1cm;
+    
+}
+.right a:hover{
+    color:rgb(114, 5, 5);
+    border:none;
+}
+
+.image{
+    background-image: url("Coral_Pink_Sand_Dunes_State_Park.jpg");
+    background-repeat: no-repeat;
+    background-size:700px;
+    background-position: center;
+    height: 600px;
+}
+
+.comment{
+    padding-bottom:100px;
+    padding-right:100px;
+    padding-left:100px;
+    padding-top: 20px;
+}
+ .explain{
+    padding: 50px;
+    font-family: 'Times New Roman';
+    font-variant:small-caps;
+    font-size: 30px;
+    border-bottom: 2px #946f73 dotted;
+} 
