@@ -13,7 +13,7 @@ struct Node{
 };
 struct Bucket{
     Node *head=NULL;
-    int eachsize=0; //이것때문에 ... 0으로 초기화 시켜줘야 Insert함수에서 조건문 가능
+    int eachsize=0; //0으로 초기화 시켜줘야 Insert함수에서 조건문 가능
 };
 
 class Hashtable{
@@ -105,7 +105,7 @@ int main(){
     H->GetValue("seok");
     H->GetValue("park");
     
-    J->Insert("seok",100); //성공!ㅠㅠㅠ 
+    J->Insert("seok",100); 
     J->GetValue("seok");
     
 }
